@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 
 const BottomRow = (props) => {
-  const [downs, setDowns] = useState(0)
   return (
     <div className="bottomRow">
       <div className="down">
